@@ -15,7 +15,6 @@ public class First {
            tankFirst.setModel("T-34");
            tankFirst.setSpeed(38);
 
-
         // First method
         tankFirst.sayPower();
         tankFirst.sayModel();
@@ -26,8 +25,5 @@ public class First {
         tankFirst.sayGunType();
         tankFirst.saySpeed();
         tankFirst.sayWidth();
-
-
     }
-
 }
