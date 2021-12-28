@@ -104,6 +104,21 @@ public class Tank {
         this.engineType = engineType;
     }
 
+    // printInfo()
+
+    public void printInfo() {
+        sayModel();
+        sayLength();
+        sayWidth();
+        sayHeight();
+        saySpeed();
+        sayPower();
+        sayArmor();
+        sayArmor();
+        sayGunType();
+        sayEngineType();
+    }
+
     public void sayModel() {
         System.out.println("Модель: " + model);
     }
