@@ -11,8 +11,16 @@ public class Tank {
     String gunType;
     String engineType;
 
-    public Tank(int i) {
+    public Tank(String model, int length, int width, int height, int speed, int power, String armor, String gunType, String engineType) {
+        this.model = model;
+        this.length = length;
+        this.width = width;
+        this.height = height;
+        this.speed = speed;
         this.power = power;
+        this.armor = armor;
+        this.gunType = gunType;
+        this.engineType = engineType;
 
     }
 
@@ -104,13 +112,6 @@ public class Tank {
         this.engineType = engineType;
     }
 
-    public Tank(int power, String model) {
-        this.power = power;
-        this.model = model;
-    }
-
-
-
     public void sayModel() {
         System.out.println("Модель: " + model);
     }
@@ -148,31 +149,3 @@ public class Tank {
     }
 
 }
-
-
-
-/*
-Длина корпуса, мм	5920
-Ширина, мм	3000
-Высота, мм	2405
-
-Тип брони	стальная катаная гомогенная высокой твёрдости
-Тип пушки	нарезная
-Тип двигателя	В-2
-
-Мощность двигателя, л. с.	500
-Скорость по шоссе, км/ч	54
-
-length, mm 5920
-Width, mm 3000
-Height, mm 2405
-
-Armor type rolled steel homogeneous high hardness
-Rifled gun type
-Engine type B-2
-
-Engine power, hp With. 500
-Speed on the highway, km / h 54
-
-
-*/
